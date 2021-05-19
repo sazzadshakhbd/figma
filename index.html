@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Figma Admin Template</title>
+    <meta charset="utf-8" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import Google Poppins Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body class="m-0 pa-0">
+    <!-- Start Header -->
+    <header>
+      <!-- Start Navigation Bar-->
+      <nav class="bg-secondary">
+        <div class="nav-wrapper">
+          <a href="#" data-target="slide-out" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul
+            class="
+              right
+              hide-on-sm-and-down
+              navbar-right-section
+              d-flex
+              align-items-center
+              justify-content-between
+            "
+          >
+            <li>
+              <form>
+                <div class="input-field">
+                  <input placeholder="Search" id="search1" type="search" />
+                  <i class="material-icons">search</i>
+                </div>
+              </form>
+            </li>
+            <li>
+              <div class="action-buttons">
+                <a
+                  class="
+                    btn-floating btn
+                    waves-effect waves-light
+                    button-shadow
+                    lightgreen
+                  "
+                  ><i class="material-icons">phone</i></a
+                >
+                <a
+                  class="
+                    btn-floating
+                    bg-primary
+                    btn
+                    waves-effect waves-light
+                    button-shadow
+                  "
+                  ><i class="material-icons">add</i></a
+                >
+                <a
+                  class="
+                    btn-floating
+                    bg-primary
+                    btn
+                    waves-effect waves-light
+                    button-shadow
+                  "
+                  ><i class="material-icons">notifications_none</i
+                  ><span class="badge circle red">9</span></a
+                >
+                <a
+                  class="
+                    btn-floating
+                    bg-primary
+                    button-shadow
+                    btn
+                    waves-effect waves-light
+                    button-shadow
+                  "
+                  ><img
+                    src="img/icons/help.svg"
+                    class="v-align-middle"
+                    alt="help"
+                  />
+                </a>
+              </div>
+            </li>
+            <li>
+              <a href="#!">
+                <div class="row valign-wrapper admin-user">
+                  <div class="col s3 p-r-0">
+                    <img
+                      src="img/user.jpg"
+                      alt="user"
+                      class="circle responsive-img"
+                    />
+                  </div>
+                  <div class="col s8">
+                    <p>
+                      <span>Admin</span><br />
+                      <span>admi@email.com</span>
+                    </p>
+                  </div>
+                  <div class="col s1 p-l-0">
+                    <i class="material-icons right">keyboard_arrow_down</i>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End Navigation Bar-->
+      <!-- Start SideNav -->
+      <ul
+        id="slide-out"
+        class="sidenav sidenav-fixed custom-sidenav bg-secondary"
+      >
+        <li class="logo">
+          <a href="index.html">
+            <img src="img/logo.svg" alt="Logo" /><span>Pypepro</span>
+          </a>
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/dashboard.svg" alt="dashboard-icon" />
+            Dashboard</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/inbox.svg" alt="inbox-icon" /> Inbox</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/deals.svg" alt="deals-icon" /> Deals</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/calender.svg" alt="calender-icon" />
+            Calender</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/contacts.svg" alt="contacts-icon" />
+            Contacts</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/new-lead.svg" alt="new-lead-icon" /> Find New
+            Leads</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/triggers.svg" alt="triggers-icon" />
+            Triggers</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/reporting.svg" alt="reporting-icon" />
+            Reporting</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/settings.svg" alt="settings-icon" />
+            Settings</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/training.svg" alt="training-icon" />
+            Training</a
+          >
+        </li>
+        <li>
+          <a href="#!"
+            ><img src="img/icons/accounts.svg" alt="accounts-icon" />
+            Accounts</a
+          >
+        </li>
+        <li class="switcher">
+          <a href="#!"
+            ><img src="img/icons/charts.svg" alt="charts.svg-icon" />
+          </a>
+        </li>
+      </ul>
+      <!-- End SideNav -->
+    </header>
+    <!-- End Header -->
+    <!-- Start Main Section -->
+    <main>
+      <div class="row">
+        <div class="col s12">
+          <div class="card main-card">
+            <div class="card-content">
+              <!--Start Deal Action Bar-->
+              <div class="deal-action-bar">
+                <div class="row mb-0">
+                  <div class="col s12 m12 l1">
+                    <h2 class="deal-title">Deal</h2>
+                  </div>
+                  <div class="col s12 m12 l11">
+                    <ul class="right">
+                      <li class="deal-actions-buttons">
+                        <a href="#"
+                          ><i class="material-icons">format_list_bulleted</i></a
+                        >
+                        <a href="#"><i class="material-icons">grid_on</i></a>
+                        <a href="#"><i class="material-icons">dashboard</i></a>
+                        <a href="#"
+                          ><img src="img/icons/chart-bar.svg" alt="chart-bar"
+                        /></a>
+                      </li>
+                      <li class="create-settings-button">
+                        <a class="waves-effect waves-light bg-primary btn"
+                          ><i class="material-icons left text-primary">add</i
+                          >Create List
+                        </a>
+                      </li>
+                      <li class="create-settings-button">
+                        <a class="waves-effect waves-light bg-primary btn"
+                          ><i class="material-icons left text-primary"
+                            >settings</i
+                          >Settings
+                        </a>
+                      </li>
+                      <li class="visibility-off-btn">
+                        <a class="btn-floating btn"
+                          ><i class="material-icons">visibility_off</i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--End Deal Action Bar-->
+              <div class="divider" tabindex="-1"></div>
+              <!--Start Category Bar-->
+              <div class="catagory-bar">
+                <div class="row mb-0">
+                  <div
+                    class="input-field col s12 m4 l3 mb-5 vehicle-input-field"
+                  >
+                    <i class="material-icons">keyboard_arrow_down</i>
+                    <select>
+                      <option value="1" selected>Vehicel Sell</option>
+                      <option value="2">Car Sell</option>
+                      <option value="3">Truck Sell</option>
+                    </select>
+                  </div>
+                  <div
+                    class="input-field col s8 m4 l2 mb-5 vehicle-input-field"
+                  >
+                    <i class="material-icons">keyboard_arrow_down</i>
+                    <select>
+                      <option value="1" selected>Active</option>
+                      <option value="2">Inactive</option>
+                      <option value="3">Both</option>
+                    </select>
+                  </div>
+                  <div
+                    class="input-field col s4 m4 l1 mb-5 datepicker-input-field"
+                  >
+                    <i class="material-icons prefix">grid_on</i>
+                    <input id="icon_prefix" type="text" class="datepicker" />
+                    <i class="material-icons keyboard-arrow"
+                      >keyboard_arrow_down</i
+                    >
+                  </div>
+                  <div
+                    class="
+                      input-field
+                      col
+                      s12
+                      m12
+                      l6
+                      mb-5
+                      search-input-field-wrapper
+                    "
+                  >
+                    <div class="search-input-field right">
+                      <input placeholder="Search" id="search" type="search" />
+                      <i class="material-icons">search</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--End Category Bar-->
+              <div class="divider" tabindex="-1"></div>
+              <!--Start Total Pipline Text-->
+              <div class="total-pipline">
+                <div class="row mb-0">
+                  <div class="col">
+                    <p>
+                      Total Pipeline Value: $20K | Total Open Deals: $20K |
+                      Total Won: $0 | Total Lost: $0
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--End Total Pipline Text-->
+              <div class="card card-wrapper">
+                <!--Start Deal Breadcrumb-->
+                <div class="card deal-breadcrumb">
+                  <ul class="steps">
+                    <li>
+                      <a href="#" class="deal-info">
+                        <span class="name">John Do</span>
+                        <span class="deal-count"
+                          >1 Deal
+                          <i class="material-icons tiny">brightness_1</i> </span
+                        ><span class="deal-amount">$12K</span>
+                      </a>
+                      <a
+                        class="
+                          btn-floating
+                          bg-primary
+                          btn
+                          waves-effect waves-light
+                        "
+                        ><i class="material-icons">add</i></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="deal-info">
+                        <span class="name">John Do</span>
+                        <span class="deal-count"
+                          >1 Deal
+                          <i class="material-icons tiny">brightness_1</i> </span
+                        ><span class="deal-amount">$12K</span>
+                      </a>
+                      <a
+                        class="
+                          btn-floating
+                          bg-primary
+                          btn
+                          waves-effect waves-light
+                        "
+                        ><i class="material-icons">add</i></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="deal-info">
+                        <span class="name">John Do</span>
+                        <span class="deal-count"
+                          >1 Deal
+                          <i class="material-icons tiny">brightness_1</i> </span
+                        ><span class="deal-amount">$12K</span>
+                      </a>
+                      <a
+                        class="
+                          btn-floating
+                          bg-primary
+                          btn
+                          waves-effect waves-light
+                        "
+                        ><i class="material-icons">add</i></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="deal-info">
+                        <span class="name">John Do</span>
+                        <span class="deal-count"
+                          >1 Deal
+                          <i class="material-icons tiny">brightness_1</i> </span
+                        ><span class="deal-amount">$12K</span>
+                      </a>
+                      <a
+                        class="
+                          btn-floating
+                          bg-primary
+                          btn
+                          waves-effect waves-light
+                        "
+                        ><i class="material-icons">add</i></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--End Deal Breadcrumb-->
+                <!--Start Deal Cards-->
+                <div class="card deal-cards" id="cutomScrollbar1">
+                  <div class="card all-deal-cards left" id="cutomScrollbar2">
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card all-deal-cards new-deal-card left">
+                    <div>
+                      <p class="content">No Deal in This Stage</p>
+                      <p class="content-button">
+                        <a
+                          class="
+                            btn-floating
+                            bg-primary
+                            btn
+                            waves-effect waves-light
+                            btn-small
+                          "
+                          ><i class="material-icons">add</i></a
+                        >
+                        <span>Add Deal</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card all-deal-cards left" id="cutomScrollbar3">
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card all-deal-cards left" id="cutomScrollbar">
+                      <div class="card single-deal-card">
+                        <div class="card-content">
+                          <span>John Do</span><a href="#">($12K)</a>
+                          <p>Time in Stage : 1 Week Ago</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#"><i class="material-icons">person</i></a>
+                          <a class="img-icon" href="#"
+                            ><img
+                              src="img/icons/message.svg"
+                              alt="message-icons"
+                          /></a>
+                          <a href="#"><i class="material-icons">phone</i></a>
+                          <a href="#"
+                            ><i class="material-icons">keyboard_voice</i></a
+                          >
+                          <a href="#"><i class="material-icons">mail</i></a>
+                          <a href="#" class="img-icon"
+                            ><img src="img/icons/edit.svg" alt="edit-icons"
+                          /></a>
+                          <a class="right" href="#"
+                            ><i
+                              class="
+                                material-icons
+                                bg-secondary
+                                text-white
+                                right-icon
+                              "
+                              >keyboard_arrow_right</i
+                            ></a
+                          >
+                        </div>
+                      </div>
+                      <div class="card single-deal-card">
+                        <div class="card-content">
+                          <span>John Do</span><a href="#">($12K)</a>
+                          <p>Time in Stage : 1 Week Ago</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#"><i class="material-icons">person</i></a>
+                          <a class="img-icon" href="#"
+                            ><img
+                              src="img/icons/message.svg"
+                              alt="message-icons"
+                          /></a>
+                          <a href="#"><i class="material-icons">phone</i></a>
+                          <a href="#"
+                            ><i class="material-icons">keyboard_voice</i></a
+                          >
+                          <a href="#"><i class="material-icons">mail</i></a>
+                          <a href="#" class="img-icon"
+                            ><img src="img/icons/edit.svg" alt="edit-icons"
+                          /></a>
+                          <a class="right" href="#"
+                            ><i
+                              class="
+                                material-icons
+                                bg-secondary
+                                text-white
+                                right-icon
+                              "
+                              >keyboard_arrow_right</i
+                            ></a
+                          >
+                        </div>
+                      </div>
+                      <div class="card single-deal-card">
+                        <div class="card-content">
+                          <span>John Do</span><a href="#">($12K)</a>
+                          <p>Time in Stage : 1 Week Ago</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#"><i class="material-icons">person</i></a>
+                          <a class="img-icon" href="#"
+                            ><img
+                              src="img/icons/message.svg"
+                              alt="message-icons"
+                          /></a>
+                          <a href="#"><i class="material-icons">phone</i></a>
+                          <a href="#"
+                            ><i class="material-icons">keyboard_voice</i></a
+                          >
+                          <a href="#"><i class="material-icons">mail</i></a>
+                          <a href="#" class="img-icon"
+                            ><img src="img/icons/edit.svg" alt="edit-icons"
+                          /></a>
+                          <a class="right" href="#"
+                            ><i
+                              class="
+                                material-icons
+                                bg-secondary
+                                text-white
+                                right-icon
+                              "
+                              >keyboard_arrow_right</i
+                            ></a
+                          >
+                        </div>
+                      </div>
+                      <div class="card single-deal-card">
+                        <div class="card-content">
+                          <span>John Do</span><a href="#">($12K)</a>
+                          <p>Time in Stage : 1 Week Ago</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#"><i class="material-icons">person</i></a>
+                          <a class="img-icon" href="#"
+                            ><img
+                              src="img/icons/message.svg"
+                              alt="message-icons"
+                          /></a>
+                          <a href="#"><i class="material-icons">phone</i></a>
+                          <a href="#"
+                            ><i class="material-icons">keyboard_voice</i></a
+                          >
+                          <a href="#"><i class="material-icons">mail</i></a>
+                          <a href="#" class="img-icon"
+                            ><img src="img/icons/edit.svg" alt="edit-icons"
+                          /></a>
+                          <a class="right" href="#"
+                            ><i
+                              class="
+                                material-icons
+                                bg-secondary
+                                text-white
+                                right-icon
+                              "
+                              >keyboard_arrow_right</i
+                            ></a
+                          >
+                        </div>
+                      </div>
+                      <div class="card single-deal-card">
+                        <div class="card-content">
+                          <span>John Do</span><a href="#">($12K)</a>
+                          <p>Time in Stage : 1 Week Ago</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#"><i class="material-icons">person</i></a>
+                          <a class="img-icon" href="#"
+                            ><img
+                              src="img/icons/message.svg"
+                              alt="message-icons"
+                          /></a>
+                          <a href="#"><i class="material-icons">phone</i></a>
+                          <a href="#"
+                            ><i class="material-icons">keyboard_voice</i></a
+                          >
+                          <a href="#"><i class="material-icons">mail</i></a>
+                          <a href="#" class="img-icon"
+                            ><img src="img/icons/edit.svg" alt="edit-icons"
+                          /></a>
+                          <a class="right" href="#"
+                            ><i
+                              class="
+                                material-icons
+                                bg-secondary
+                                text-white
+                                right-icon
+                              "
+                              >keyboard_arrow_right</i
+                            ></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card all-deal-cards left" id="cutomScrollbar4">
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card all-deal-cards left" id="cutomScrollbar5">
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card all-deal-cards left" id="cutomScrollbar6">
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="card single-deal-card">
+                      <div class="card-content">
+                        <span>John Do</span><a href="#">($12K)</a>
+                        <p>Time in Stage : 1 Week Ago</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#"><i class="material-icons">person</i></a>
+                        <a class="img-icon" href="#"
+                          ><img src="img/icons/message.svg" alt="message-icons"
+                        /></a>
+                        <a href="#"><i class="material-icons">phone</i></a>
+                        <a href="#"
+                          ><i class="material-icons">keyboard_voice</i></a
+                        >
+                        <a href="#"><i class="material-icons">mail</i></a>
+                        <a href="#" class="img-icon"
+                          ><img src="img/icons/edit.svg" alt="edit-icons"
+                        /></a>
+                        <a class="right" href="#"
+                          ><i
+                            class="
+                              material-icons
+                              bg-secondary
+                              text-white
+                              right-icon
+                            "
+                            >keyboard_arrow_right</i
+                          ></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--End Deal Cards-->
+                <!--Start Deal Cards Action Buttons-->
+                <div class="deal-actions-buttons">
+                  <a href="!#" class="action-btn left">
+                    <img src="img/icons/delete.svg" alt="delete" />Delete
+                  </a>
+                  <a href="!#" class="action-btn win-btn left">
+                    <img src="img/icons/win.svg" alt="win" />Win
+                  </a>
+                  <a href="!#" class="action-btn left">
+                    <img src="img/icons/lost.svg" alt="lost" />Lost
+                  </a>
+                  <a href="!#" class="action-btn pipeline-btn left">
+                    Pipeline
+                  </a>
+                </div>
+                <!--End Deal Cards Action Buttons-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- End Main Section -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

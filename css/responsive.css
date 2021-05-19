@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1200px) {
+  header nav .nav-wrapper .input-field {
+    margin-right: 10px;
+  }
+  header nav .nav-wrapper .input-field input[type="search"] {
+    width: 190px;
+  }
+  header nav .action-buttons {
+    margin-right: 0;
+  }
+  .catagory-bar .vehicle-input-field {
+    width: 37% !important;
+  }
+  .catagory-bar .datepicker-input-field {
+    width: 15% !important;
+  }
+  .catagory-bar .search-input-field-wrapper {
+    margin: 0 auto;
+    width: 64% !important;
+  }
+  .steps li:first-child {
+    padding-left: 30px;
+  }
+  .steps li {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+  .deal-action-bar ul li {
+    margin-left: 5px;
+  }
+  .deal-action-bar .deal-title {
+    text-align: center;
+    margin-top: 15px;
+    line-height: 26px;
+  }
+  header nav .nav-wrapper .input-field {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .steps li {
+    width: 100%;
+  }
+  .deal-actions-buttons {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .action-btn {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  .catagory-bar .vehicle-input-field {
+    width: 100% !important;
+  }
+  .catagory-bar .datepicker-input-field {
+    width: 30% !important;
+    margin-left: 12px !important;
+  }
+  .catagory-bar .search-input-field-wrapper {
+    margin: 18px auto;
+    width: 64% !important;
+  }
+  .search-input-field {
+    width: 100%;
+  }
+  .deal-action-bar ul {
+    display: block;
+    margin: 0 auto;
+  }
+  .deal-action-bar .deal-title {
+    margin-bottom: 15px;
+  }
+  .deal-action-bar ul li {
+    display: block;
+    margin-bottom: 10px;
+    float: left;
+  }
+  header nav .action-buttons {
+    display: none;
+  }
+  header nav .admin-user {
+    margin-top: 10px;
+  }
+  header nav .nav-wrapper .sidenav-trigger {
+    margin-right: 0;
+  }
+}
